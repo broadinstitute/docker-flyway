@@ -15,7 +15,7 @@
 # limitations under the License.
 #
 
-if [ -z $SLEEP ]; then
+if [ -n $SLEEP ]; then
   echo "Sleeping for ${SLEEP} seconds."
   sleep $SLEEP
 fi
