@@ -15,6 +15,11 @@
 # limitations under the License.
 #
 
+if [ -z $SLEEP ]; then
+  sleep $SLEEP
+fi
+
+
 # Detect cygwin
 cygwin=false
 linux=false
