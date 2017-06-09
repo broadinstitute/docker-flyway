@@ -16,6 +16,7 @@
 #
 
 if [ -z $SLEEP ]; then
+  echo "Sleeping for ${SLEEP} seconds."
   sleep $SLEEP
 fi
 
